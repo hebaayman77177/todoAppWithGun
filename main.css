@@ -1,0 +1,37 @@
+
+header
+,main{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+}
+header{
+    margin-top:20%;
+}
+header h1{
+    text-align:center;
+    flex:0 0 100%;
+}
+
+main{
+    margin-top:4%;
+}
+main input> *,
+ul{
+    text-align:center;
+    flex:0 0 100%;
+    list-style-type: none;
+}
+li:hover .del-todo{
+    opacity:1;
+}
+li span{
+    cursor:pointer;
+}
+.del-todo{
+    color: red;
+    margin-left: 48px;
+    font-weight: bold;
+    opacity:0;
+}
